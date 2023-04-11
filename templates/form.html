@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <link rel="sytlesheet" type="test/css" href="static/basic.css">
+    <title>This is a form demo!</title>
+</head>
+
+<form method="post">
+    Quote: <input quote="quote" name="nm"/>
+    <br/>
+    <button type="submit">Submit</button>
+</form>
+
+<!-- more content if a name exists -->
+{% if quote %}
+<!-- Do some stuff -->
+    <div class="content">
+        <p>{{quote}}</p>
+        <p>- You</p>
+    </div>
+{% endif %}

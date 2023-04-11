@@ -1,0 +1,3 @@
+mySecretkey.txt (if I had this file it would ignore it)
+flasEnv/
+*.pyc

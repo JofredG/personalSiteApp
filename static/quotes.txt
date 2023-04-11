@@ -1,0 +1,1 @@
+First sample quote used to check if we are overwriting whatever is in this txt file
