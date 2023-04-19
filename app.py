@@ -14,7 +14,7 @@ def readDetails(filename):
 def homePage():
    name = 'Jofred\'s Site'
    #details = ['This is my name', 'I am from earth'] #<- instead of this we'll use a function
-   details = readDetails('static\details.txt')
+   details = readDetails('static/details.txt')
    return render_template('base.html', name=name, aboutMe=details)
 
 @app.route('/form', methods=['GET', 'POST'])
